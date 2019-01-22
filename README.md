@@ -10,7 +10,7 @@ This Java project is implemented as an application of seam carving. More functio
 
 ## Usage
 
-### Prerequisites
+## Prerequisites
 1. Install [Java](https://www.java.com/en/download/help/download_options.xml) on your computer.
 2. Clone or download this repository to your local directory.
 3. Enter `javac SeamCarver.java` in your terminal to compile. You should see files `SeamCarver.class` and `Picture.class` in the same directory after comiling.
