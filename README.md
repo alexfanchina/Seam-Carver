@@ -10,18 +10,18 @@ This Java project is implemented as an application of seam carving. More functio
 
 ## Usage
 
-## Prerequisites
+### Prerequisites
 1. Install [Java](https://www.java.com/en/download/help/download_options.xml) on your computer.
 2. Clone or download this repository to your local directory.
 3. Enter `javac SeamCarver.java` in your terminal to compile. You should see files `SeamCarver.class` and `Picture.class` in the same directory after comiling.
 
-## Reduce image height or width
+### Reduce image height or width
 ```
 java SeamCarver <imagefile> <h|w> <numberOfSeamsToRemove>
 ```
 For example, enter `java SeamCarver example.jpg h 200` if you wanted to reduce the width of picture `example.jpg` by 200 pixels.
 
-## Increase image height or width [ 🚧 Under construction 👷🔧️🚧 ]
+### Increase image height or width [ 🚧 Under construction 👷🔧️🚧 ]
 
 Better interaction solutions are under construction.
 
