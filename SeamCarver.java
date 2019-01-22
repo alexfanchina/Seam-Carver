@@ -587,6 +587,30 @@ public class SeamCarver {
     }
 
     /**
+     * Automatically remove <em>iterations</em> vertical seams.
+     *
+     * @param iterations number of seams to get removed
+     */
+    public void autoRemoveVerticalSeams(int iterations) {
+        for (int i = 0; i < iterations; i++) {
+            System.out.println("Iteration: " + i);
+            removeVerticalSeam(findVerticalSeam());
+        }
+    }
+
+    /**
+     * Automatically remove <em>iterations</em> horizontal seams.
+     *
+     * @param iterations number of seams to get removed
+     */
+    public void autoRemoveHorizontalSeams(int iterations) {
+        for (int i = 0; i < iterations; i++) {
+            System.out.println("Iteration: " + i);
+            removeHorizontalSeam(findHorizontalSeam());
+        }
+    }
+
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -610,11 +634,8 @@ public class SeamCarver {
 
         Picture picture = new Picture(filePath);
         SeamCarver seamCarver = new SeamCarver(picture);
-        for (int i = 0; i < iterations; i++) {
-            System.out.println("Iteration: " + i);
-            if (horizontal) seamCarver.removeHorizontalSeam(seamCarver.findHorizontalSeam());
-            else seamCarver.removeVerticalSeam(seamCarver.findVerticalSeam());
-        }
+        if (horizontal) seamCarver.autoRemoveHorizontalSeams(iterations);
+        else seamCarver.autoRemoveVerticalSeams(iterations);
         String destFilePath = filePath.substring(0, filePath.lastIndexOf(".")) + "_resized.png";
         seamCarver.picture().save(destFilePath);
         System.out.println("Resized Image saved to: " + destFilePath);
