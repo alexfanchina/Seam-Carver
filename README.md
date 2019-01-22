@@ -1,7 +1,7 @@
 # Seam-Carver
 
-Seam-Carver is a content-aware image resizing application helping to change images' aspect ratio. It resizes images by removing the lowest-energy vertical and horizontal "seams." This technique, [*seam carving*](https://en.wikipedia.org/wiki/Seam_carving), is proposed by Shai Avidan and Ariel Shamir at [*
-Seam carving for content-aware image resizing*](https://dl.acm.org/citation.cfm?id=1276390) in 2007.
+Seam-Carver is a content-aware image resizing application helping to change images' aspect ratio. It resizes images by removing the lowest-energy vertical and horizontal "seams." This technique, [*seam carving*](https://en.wikipedia.org/wiki/Seam_carving), is proposed by Shai Avidan and Ariel Shamir at *[
+Seam carving for content-aware image resizing](https://dl.acm.org/citation.cfm?id=1276390)* in 2007.
 
 A dynamic demonstration of seam carving is also available [on YouTube](https://www.youtube.com/watch?v=6NcIJXTlugc).
 
@@ -35,9 +35,6 @@ Original:
 Resized:  
 <img src="img/banffResized.png" width="50%" />
 
-Resized:  
-<img src="img/panoramaResized.png" width="50%" />   
-
 Original:  
 <img src="img/HJocean.png" width="50%" />   
 [Source](http://coursera.cs.princeton.edu/algs4/assignments/seamCarving.html)  
@@ -55,6 +52,9 @@ Resized:
 Original:  
 <img src="img/panorama.jpg" width="50%" />   
 [Source](https://commons.wikimedia.org/wiki/File%3AMonument_Valley_Panorama_2.jpg)
+
+Resized:  
+<img src="img/panoramaResized.png" width="50%" />   
 
 
 ## License
