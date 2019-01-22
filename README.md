@@ -1,6 +1,6 @@
 # Seam-Carver
 
-Seam-Carver is a content-aware image resizing application helping to change the image's aspect ratio. It resize images by removing the lowest-energy vertical and horizontal "seams." This technique, [*seam carving*](https://en.wikipedia.org/wiki/Seam_carving), is proposed by Shai Avidan and Ariel Shamir at [*
+Seam-Carver is a content-aware image resizing application helping to change images' aspect ratio. It resizes images by removing the lowest-energy vertical and horizontal "seams." This technique, [*seam carving*](https://en.wikipedia.org/wiki/Seam_carving), is proposed by Shai Avidan and Ariel Shamir at [*
 Seam carving for content-aware image resizing*](https://dl.acm.org/citation.cfm?id=1276390) in 2007.
 
 A dynamic demonstration of seam carving is also available [on YouTube](https://www.youtube.com/watch?v=6NcIJXTlugc).

@@ -613,7 +613,7 @@ public class SeamCarver {
         for (int i = 0; i < iterations; i++) {
             System.out.println("Iteration: " + i);
             if (horizontal) seamCarver.removeHorizontalSeam(seamCarver.findHorizontalSeam());
-            else seamCarver.removeVerticalSeam(seamCarver.findHorizontalSeam());
+            else seamCarver.removeVerticalSeam(seamCarver.findVerticalSeam());
         }
         String destFilePath = filePath.substring(0, filePath.lastIndexOf(".")) + "_resized.png";
         seamCarver.picture().save(destFilePath);
