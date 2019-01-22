@@ -29,7 +29,7 @@ Better interaction solutions are under construction.
 ## Sample Resizings
 
 Original:  
-<img src="img/banff.jpg" width="50%" />
+<img src="img/banff.jpg" width="50%" />   
 [Source](https://www.instagram.com/p/9CjZeFIinS/?taken-by=mmxxvii)  
 
 Resized:  
